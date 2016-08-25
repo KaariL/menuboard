@@ -15,21 +15,21 @@ body {
 }
 @font-face {
     font-family: weblysleek;
-    src: url(/fonts/weblysleekuil.ttf);
+    src: url("https://dl.dropboxusercontent.com/s/gs918tnv9bglzgn/weblysleekuil.ttf");
 }
 @font-face {
     font-family: libertine;
-    src: url("/fonts/LinLibertine_R.ttf");
+    src: url("https://dl.dropboxusercontent.com/s/ni5whootl9pxspt/LinLibertine_R.ttf");
 
 }
 @font-face {
     font-family: cinzel;
-    src: url("/fonts/Cinzel-Regular.otf");
+    src: url("https://dl.dropboxusercontent.com/s/3t1zdgl0q2p83sw/Cinzel-Regular.otf");
 }
 
 @font-face {
     font-family: yozakura;
-    src: url(/fonts/YOZAKURA-Regular.otf);
+    src: url("https://dl.dropboxusercontent.com/s/h4ssjbhoxg1sefe/YOZAKURA-Regular.otf");
 
 }
 .icon {
