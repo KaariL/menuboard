@@ -13,6 +13,11 @@ body {
      font-family: weblysleek;
 
 }
+a {
+  color: inherit;
+  text-decoration: none;
+
+}
 @font-face {
     font-family: weblysleek;
     src: url("https://dl.dropboxusercontent.com/s/gs918tnv9bglzgn/weblysleekuil.ttf");
@@ -219,8 +224,8 @@ flex-basis: 50%;
 
 
 } */
-h4 + div {
-
+article > section {
+  display: none;
 }
 .recipe-wrapper {
     overflow: hidden;
@@ -237,6 +242,7 @@ h4 + div {
     transition-duration: 1s;
      -webkit-filter: blur(5px);
      -webkit-filter: opacity(20%);
+
 
 }
 .miso {
