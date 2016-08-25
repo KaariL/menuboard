@@ -84,7 +84,7 @@ a {
     display: block;
 }
 
-.description {
+.intro .description {
     width: 100%;
     flex-shrink: 0.5;
     margin: 2rem;
@@ -93,7 +93,7 @@ a {
     color: gainsboro;
 }
 
-.description > p {
+.intro .description > p {
     margin: 2rem;
     font-size: 1.3em;
 
@@ -124,11 +124,7 @@ h3 {
     font-family: cinzel;
 
 }
-h4 {
-    font-variant: small-caps;
-    font-weight: 100;
-    text-decoration: underline;
-}
+
 
 
     /*    */
@@ -216,21 +212,9 @@ flex-basis: 50%;
     padding: 0;
 }
 
-/* .preview {
-    height: 4em;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
 
 
-} */
-article > section {
-  display: none;
-}
-.recipe-wrapper {
-    overflow: hidden;
-    display: none;
-}
+
 
 
  .dashi {
@@ -290,57 +274,57 @@ article > section {
 }
 
 
- /*#dashi {
-    display: none;
-    position: fixed;
-    top: 5vh;
-    left: 5vw;
-    height: 90vh;
-    width: 90vw;
-    background: whitesmoke;
-    margin: 0;
-
-    font-family: libertine;
-    border: 1px solid #696969;
-
-    padding: 1em;
-   border-radius: 50px;
-}
-#miso {
- display: none;
-}
-#potato {
- display: none;
-}
-#edamame {
- display: none;
-}
-#teriyaki {
- display: none;
+/*  SECTION CONTENT  */
+article > section {
+  display: none;
+  color: darkslategrey;
+  padding: 0 10%;
 }
 
-.recipeContent p {
-    margin-top: 2em;
+
+
+
+  h4 {
+    font-variant: small-caps;
+    font-weight: 100;
+    text-decoration: underline;
+  }
+
+  .description {
+    color: gainsboro;
+    font-size: 1.3rem;
     font-style: italic;
-}
-.recipeContent ol {
-    list-style: none;
-    line-height: 1.5em;
-    letter-spacing: 110%;
-}
+    text-align: center;
+    padding: 0 2rem;
 
-.meta {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-h4 + span {
+  }
 
 
-} */
+  .meta {
+  float: left;
+  
+  }
+  .meta :not(h4) {
+  color: gainsboro;
 
+  }
+
+  .ingredients {
+    float: left;
+    padding: inherit;
+
+
+  }
+
+  .instructions {
+    float: right;
+
+
+  }
+  .clearfix {
+
+    clear: both;
+  }
 
 
 
@@ -363,7 +347,7 @@ h4 + span {
     .intro {
         flex-direction: column;
     }
-    .description {
+    .intro .description {
      margin: 0;
     }
 
@@ -372,7 +356,7 @@ h4 + span {
     }
 }
 @media (min-width: 1300px) {
-    .description {
+    .intro .description {
      margin: 0;
 
     }
