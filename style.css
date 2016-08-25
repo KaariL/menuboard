@@ -67,7 +67,7 @@ body {
 }
 
 .intro {
-    background-image: url("/images/water.png");
+    background-image: url("https://dl.dropboxusercontent.com/s/8ybxcikv4aor2yg/water.png");
     background-size: cover;
     background-color: darkslategrey;
     height: auto;
@@ -200,7 +200,7 @@ flex-basis: 50%;
 /* menu */
 .printer, footer {
     display: flex;
-     background: url(images/water.png);
+     background: url('https://dl.dropboxusercontent.com/s/8ybxcikv4aor2yg/water.png');
     background-size: cover;
       align-content: center;
      justify-content: space-around;
