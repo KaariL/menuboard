@@ -1,0 +1,387 @@
+
+
+html {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    list-style: none;
+
+}
+body {
+    padding: 0;
+    margin: 0;
+     font-family: weblysleek;
+
+}
+@font-face {
+    font-family: weblysleek;
+    src: url(/fonts/weblysleekuil.ttf);
+}
+@font-face {
+    font-family: libertine;
+    src: url("/fonts/LinLibertine_R.ttf");
+
+}
+@font-face {
+    font-family: cinzel;
+    src: url("/fonts/Cinzel-Regular.otf");
+}
+
+@font-face {
+    font-family: yozakura;
+    src: url(/fonts/YOZAKURA-Regular.otf);
+
+}
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0 1em;
+
+}
+/* spalsh */
+
+.title {
+    display: none;
+   /* width: 100%;
+    height: 150px;
+    background: linear-gradient(rgba(20, 20, 20, .1), rgba(22, 22, 22, .65));
+    border-bottom: 7px solid black; */
+}
+ #banner {
+    width: 100%;
+     height: 100%;
+     position: fixed;
+     top: 0;
+     display: flex;
+     align-content: center;
+     justify-content: space-around;
+     align-items: center;
+     background-color: pink;
+}
+#content {
+    width: 100%;
+    position: relative;
+    top: 93vh;
+    background: rgb(130, 160, 185);
+
+}
+
+.intro {
+    background-image: url("/images/water.png");
+    background-size: cover;
+    background-color: darkslategrey;
+    height: auto;
+    display: flex;
+    text-align: justify;
+}
+
+.intro h2 {
+    display: block;
+}
+
+.description {
+    width: 100%;
+    flex-shrink: 0.5;
+    margin: 2rem;
+    background-color: rgba(19, 19, 19, .65);
+    border-radius: 20px;
+    color: gainsboro;
+}
+
+.description > p {
+    margin: 2rem;
+    font-size: 1.3em;
+
+}
+.fmenu {
+    perspective: 1000px;
+}
+
+h1 {
+    height: 30px;
+    overflow: hidden;
+    margin: 0;
+    color: black;
+    background-color: black;
+}
+
+h3 {
+    width; 100%;
+    margin: 0;
+    padding: .3rem;
+    text-align: center;
+    background-color: gainsboro;
+    color: #696969;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 3em;
+    font-family: cinzel;
+
+}
+h4 {
+    font-variant: small-caps;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+
+    /*    */
+
+/* intro */
+
+    /*    */
+
+/* bio */
+.bio {
+ background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+
+}
+.face {
+   order: 1;
+flex-basis: 50%;
+  text-align: center;
+
+}
+.face img {
+  border-radius: 50%;
+
+
+}
+.bio p {
+  order: 2;
+    flex-basis: 50%;
+    font-style:italic;
+    line-height: 2;
+    font-size: 1.2em;
+
+}
+
+.bio h2 {
+    order: 3;
+    flex-basis: 50%;
+    font-family: yozakura;
+    font-size: 3.5em;
+    margin: 0;
+    text-align: center;
+}
+.bio a {
+    order: 4;
+    flex-basis: 50%;
+    align-content: center;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: .85rem;
+    text-decoration: none;
+    color: darkslategrey;
+
+
+}
+.icon-wordpress {
+  flex-grow: .5;
+    order: 2;
+    font-size: 1.5rem;
+    fill: darkslategrey;
+
+}
+
+
+
+
+    /*    */
+
+/* menu */
+.printer, footer {
+    display: flex;
+     background: url(images/water.png);
+    background-size: cover;
+      align-content: center;
+     justify-content: space-around;
+     align-items: center;
+    border-bottom: 4px solid black;
+    font-size: 1.5;
+    font-weight: 600;
+    padding: 0;
+}
+
+/* .preview {
+    height: 4em;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+} */
+h4 + div {
+
+}
+.recipe-wrapper {
+    overflow: hidden;
+    display: none;
+}
+
+
+ .dashi {
+     background: url("images/dashi.jpg");
+    height: 5em;
+    background-position: bottom;
+     background-repeat: no-repeat;
+     background-size: cover;
+    transition-duration: 1s;
+     -webkit-filter: blur(5px);
+     -webkit-filter: opacity(20%);
+
+}
+.miso {
+  background: url("images/miso.jpg");
+       height: 5em;
+    background-position: bottom;
+     background-repeat: no-repeat;
+     background-size: cover;
+    transition-duration: 1s;
+     -webkit-filter: blur(5px);
+     -webkit-filter: opacity(20%);
+}
+.potato {
+  background: url("images/potato.jpg");
+       height: 5em;
+    background-position: bottom;
+     background-repeat: no-repeat;
+     background-size: cover;
+    transition-duration: 1s;
+     -webkit-filter: blur(5px);
+     -webkit-filter: opacity(20%);
+}
+ .edamame {
+  background: url("images/edamame.jpg");
+       height: 5em;
+    background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+     transition-duration: 1s;
+     -webkit-filter: blur(5px);
+     -webkit-filter: opacity(20%);
+
+}
+
+.teriyaki {
+  background: url("images/teriyaki.jpg");
+       height: 5em;
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   transition-duration: 1s;
+     -webkit-filter: blur(5px);
+     -webkit-filter: opacity(20%);
+
+}
+
+
+ /*#dashi {
+    display: none;
+    position: fixed;
+    top: 5vh;
+    left: 5vw;
+    height: 90vh;
+    width: 90vw;
+    background: whitesmoke;
+    margin: 0;
+
+    font-family: libertine;
+    border: 1px solid #696969;
+
+    padding: 1em;
+   border-radius: 50px;
+}
+#miso {
+ display: none;
+}
+#potato {
+ display: none;
+}
+#edamame {
+ display: none;
+}
+#teriyaki {
+ display: none;
+}
+
+.recipeContent p {
+    margin-top: 2em;
+    font-style: italic;
+}
+.recipeContent ol {
+    list-style: none;
+    line-height: 1.5em;
+    letter-spacing: 110%;
+}
+
+.meta {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h4 + span {
+
+
+} */
+
+
+
+
+/* footer */
+.footer  {
+
+    border-top: 8px solid black;
+    border-bottom: 0;
+}
+.footer > * {
+    flex-basis: 20%;
+    padding: 10px 9% 40px;
+
+
+}
+@media (max-width: 690px) {
+    .menu {
+
+    }
+    .intro {
+        flex-direction: column;
+    }
+    .description {
+     margin: 0;
+    }
+
+    .bio {
+     flex-direction: column;
+    }
+}
+@media (min-width: 1300px) {
+    .description {
+     margin: 0;
+
+    }
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro {
+     padding: 0;
+
+    }
+
+    .fmenu img {
+       width: 19%;
+
+    }
+}
+    /*    */
