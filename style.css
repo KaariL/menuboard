@@ -288,36 +288,45 @@ article > section {
     font-variant: small-caps;
     font-weight: 100;
     text-decoration: underline;
+    color: grey;
   }
 
-  .description {
+  .menu .description {
     color: gainsboro;
     font-size: 1.3rem;
     font-style: italic;
     text-align: center;
-    padding: 0 2rem;
+    padding: 0 10%;
 
   }
 
 
   .meta {
   float: left;
-  
-  }
-  .meta :not(h4) {
-  color: gainsboro;
 
   }
 
   .ingredients {
-    float: left;
     padding: inherit;
+    float: left;
+  }
+  .ingredients ul {
+
+
+    list-style-type: circle;
 
 
   }
 
   .instructions {
-    float: right;
+    float: left;
+
+
+  }
+  .instructions li {
+    line-height: 2rem;
+    font-size: 1.1rem;
+    margin-left: 10px;
 
 
   }
