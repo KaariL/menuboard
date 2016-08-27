@@ -94,8 +94,7 @@ a {
 
 .intro .description {
     width: 100%;
-    -ms-flex-negative: 0.5;
-        flex-shrink: 0.5;
+  flex-basis: auto;
     margin: 2rem;
     background-color: rgba(19, 19, 19, .65);
     border-radius: 20px;
@@ -110,6 +109,9 @@ a {
 .fmenu {
     -webkit-perspective: 1000px;
             perspective: 1000px;
+
+
+  flex-basis: 40%;
 }
 
 h1 {
@@ -139,7 +141,11 @@ h3 {
 
     /*    */
 
-/* intro */
+/* style*/
+.style {
+  height: 240px;
+  background-color: gainsboro;
+}
 
     /*    */
 
@@ -267,7 +273,8 @@ h3 {
 
  .dashi {
      background: url("images/dashi.jpg");
-    height: 5em;
+    height: 19%;
+    width: auto;
     background-position: bottom;
      background-repeat: no-repeat;
      background-size: cover;
@@ -280,7 +287,8 @@ h3 {
 }
 .miso {
   background: url("images/miso.jpg");
-       height: 5em;
+       height: 19%;
+       width: auto;
     background-position: bottom;
      background-repeat: no-repeat;
      background-size: cover;
@@ -291,7 +299,8 @@ h3 {
 }
 .potato {
   background: url("images/potato.jpg");
-       height: 5em;
+       height: 19%;
+       width: auto;
     background-position: bottom;
      background-repeat: no-repeat;
      background-size: cover;
@@ -302,7 +311,8 @@ h3 {
 }
  .edamame {
   background: url("images/edamame.jpg");
-       height: 5em;
+       height: 19%;
+       width: auto;
     background-position: bottom;
       background-repeat: no-repeat;
       background-size: cover;
@@ -315,7 +325,8 @@ h3 {
 
 .teriyaki {
   background: url("images/teriyaki.jpg");
-       height: 5em;
+       height: 19%;
+       width: auto;
     background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -404,8 +415,10 @@ article > section {
 
 }
 @media (max-width: 690px) {
-    .menu {
-
+    .fmenu {
+  width: 85%;
+  display: block;
+      margin: 0 auto;
     }
     .intro {
         -webkit-box-orient: vertical;
@@ -423,6 +436,9 @@ article > section {
          -ms-flex-direction: column;
              flex-direction: column;
     }
+}
+
+
 }
 @media (min-width: 1300px) {
     .intro .description {
