@@ -144,7 +144,12 @@ h3 {
 /* style*/
 .style {
   height: 240px;
-  background-color: gainsboro;
+  background: url('/images/bamboo.svg');
+  background-size: cover;
+}
+.style img {
+
+
 }
 
     /*    */
