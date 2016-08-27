@@ -142,15 +142,15 @@ h3 {
     /*    */
 
 /* style*/
-.style {
-  height: 240px;
+.bamboo {
+  height: 265px;
   background: url('/images/bamboo.svg');
   background-size: cover;
-}
-.style img {
+  margin: 0;
+  padding: 0;
 
-
 }
+
 
     /*    */
 
