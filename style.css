@@ -157,13 +157,14 @@ h3 {
 .bamboo {
 
   width: 100%;
-  height: 330px;
-  background: url('images/bamboo.svg');
-  background-size: cover;
-  z-index: 2;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  height: 290px;
 
+
+  z-index: 2;
+  position: relative;
+  background: url('images/bamboo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
 }
@@ -457,6 +458,7 @@ article > section {
     }
     .intro .description {
      margin: 0;
+     padding: 0 7%;
     }
 
     .bio {
@@ -464,6 +466,11 @@ article > section {
      -webkit-box-direction: normal;
          -ms-flex-direction: column;
              flex-direction: column;
+    }
+  }
+    @media (max-width: 1150px) {
+    article > section > div {
+  clear: both;
     }
 }
 
