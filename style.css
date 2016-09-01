@@ -86,6 +86,13 @@ a {
     display: -ms-flexbox;
     display: flex;
     text-align: justify;
+    box-shadow: 0px 50px 65px 40px rgba(0, 0, 0, 0.45);
+    position: relative;
+    z-index: 9;
+    border-bottom: 4px solid gainsboro;
+
+
+
 }
 
 .intro h2 {
@@ -99,6 +106,8 @@ a {
     background-color: rgba(19, 19, 19, .65);
     border-radius: 20px;
     color: gainsboro;
+    max-width: 550px;
+    margin: auto;
 }
 
 .intro .description > p {
@@ -112,6 +121,8 @@ a {
 
 
   flex-basis: 40%;
+  max-width: 400px;
+  margin: auto;
 }
 
 h1 {
@@ -120,6 +131,7 @@ h1 {
     margin: 0;
     color: black;
     background-color: black;
+    display: none;
 }
 
 h3 {
@@ -143,12 +155,15 @@ h3 {
 
 /* style*/
 .bamboo {
-  height: 265px;
-  background-image: url('/images/bamboo.svg');
+
+  width: 100%;
+  height: 375px;
+  background: url('images/bamboo.svg');
   background-size: cover;
-  margin: 0;
-  padding: 0;
-  background-repeat: no-repeat;
+  z-index: 2;
+
+
+
 
 }
 
@@ -254,6 +269,7 @@ h3 {
 
 /* menu */
 .printer, footer {
+    border-top: 6px solid gainsboro;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -270,6 +286,9 @@ h3 {
     font-size: 1.5;
     font-weight: 600;
     padding: 0;
+      box-shadow: 0px -50px 65px 40px rgba(0, 0, 0, 0.45);
+      position: relative;
+      z-index: 9;
 }
 
 
@@ -420,7 +439,7 @@ article > section {
 
 
 }
-@media (max-width: 690px) {
+@media (max-width: 750px) {
     .fmenu {
   width: 85%;
   display: block;
