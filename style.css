@@ -86,6 +86,13 @@ a {
     display: -ms-flexbox;
     display: flex;
     text-align: justify;
+    box-shadow: 0px 40px 65px 40px rgba(0, 0, 0, 0.45);
+    position: relative;
+    z-index: 9;
+    border-bottom: 4px solid black;
+
+
+
 }
 
 .intro h2 {
@@ -99,6 +106,8 @@ a {
     background-color: rgba(19, 19, 19, .65);
     border-radius: 20px;
     color: gainsboro;
+    max-width: 550px;
+    margin: auto;
 }
 
 .intro .description > p {
@@ -112,6 +121,8 @@ a {
 
 
   flex-basis: 40%;
+  max-width: 400px;
+  margin: auto;
 }
 
 h1 {
@@ -120,6 +131,7 @@ h1 {
     margin: 0;
     color: black;
     background-color: black;
+
 }
 
 h3 {
@@ -143,11 +155,17 @@ h3 {
 
 /* style*/
 .bamboo {
-  height: 265px;
-  background: url('/images/bamboo.svg');
-  background-size: cover;
-  margin: 0;
-  padding: 0;
+
+  width: 100%;
+  height: 290px;
+
+
+  z-index: 2;
+  position: relative;
+  background: url('images/bamboo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
 
@@ -252,7 +270,13 @@ h3 {
     /*    */
 
 /* menu */
+.printer {
+  box-shadow: 0px -40px 65px 40px rgba(0, 0, 0, 0.45);
+  position: relative;
+  z-index: 9;
+}
 .printer, footer {
+    border-top: 6px solid black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -269,6 +293,7 @@ h3 {
     font-size: 1.5;
     font-weight: 600;
     padding: 0;
+
 }
 
 
@@ -419,7 +444,7 @@ article > section {
 
 
 }
-@media (max-width: 690px) {
+@media (max-width: 750px) {
     .fmenu {
   width: 85%;
   display: block;
@@ -433,6 +458,7 @@ article > section {
     }
     .intro .description {
      margin: 0;
+     padding: 0 7%;
     }
 
     .bio {
@@ -440,6 +466,11 @@ article > section {
      -webkit-box-direction: normal;
          -ms-flex-direction: column;
              flex-direction: column;
+    }
+  }
+    @media (max-width: 1150px) {
+    article > section > div {
+  clear: both;
     }
 }
 
