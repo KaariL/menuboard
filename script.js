@@ -5,4 +5,11 @@ $(document).ready(function(){
 
    });
 
+   $('article').click(function(){
+       $('.title', this).css({
+         'transform' : 'rotateY(90deg)'
+       });
+
+   });
+
 });
