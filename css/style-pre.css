@@ -115,15 +115,6 @@ a {
     font-size: 1.3em;
 
 }
-.fmenu {
-    -webkit-perspective: 1000px;
-            perspective: 1000px;
-
-
-  flex-basis: 40%;
-  max-width: 400px;
-  margin: auto;
-}
 
 h1 {
     height: 30px;
