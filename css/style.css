@@ -38,6 +38,6 @@ h3 {
   margin-right: 20%;
 }
 
-article > div > section {
+article > section {
   display: none;
 }
