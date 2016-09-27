@@ -8,7 +8,11 @@
 }
 h1 {
   text-align: center;
-  
+
+}
+h3 {
+  text-align: center;
+  background: pink;
 }
 .intro {
   text-align: justify;
@@ -18,4 +22,22 @@ h1 {
   h1 {
     text-align: right;
   }
+}
+
+
+/* PPPPPPPRINNNTERFLJADSFLKASDFKLASL:DFK  */
+.circle, .circle-left, .circle-right {
+  border: 3px solid black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+
+}
+.circle-left {
+  margin-right: 20%;
+}
+
+article > div > section {
+  display: none;
 }
