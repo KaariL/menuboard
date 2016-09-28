@@ -41,3 +41,7 @@ h3 {
 article > section {
   display: none;
 }
+
+.element-with-video-bg {
+	background-image: url(path/to/your/poster.jpg);
+}

@@ -13,3 +13,9 @@ $(document).ready(function(){
    });
 
 });
+
+
+
+$(document).ready(function(){
+	$('.my-background-video').bgVideo();
+});
