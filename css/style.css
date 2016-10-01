@@ -45,3 +45,17 @@ article > section {
 .element-with-video-bg {
 	background-image: url(path/to/your/poster.jpg);
 }
+
+.ingredients {
+  background-color: blue;
+}
+
+.instructions {
+  background-color: red;
+}
+.meta {
+  background-color: green;
+}
+.description {
+  background-color: purple ;
+}
