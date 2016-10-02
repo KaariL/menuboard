@@ -1,3 +1,28 @@
+/* xs breakpoint specific styles */
+@media (max-width: 768px) {
+
+
+}
+
+/* sm breakpoint specific styles */
+@media (min-width: 768px) and (max-width: 992px) {
+
+
+}
+
+/* md breakpoint specific styles */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+/* lg breakpoint specific styles */
+@media (min-width: 1200px) {
+
+  .bio {
+    background-color: grey;
+
+  }
+}
 
 
 .icon {
@@ -38,24 +63,36 @@ h3 {
   margin-right: 20%;
 }
 
+
+
+
+
 article > section {
   display: none;
 }
 
-.element-with-video-bg {
-	background-image: url(path/to/your/poster.jpg);
-}
+.bio {
+  background-color: grey;
 
-.ingredients {
+
+}
+    .face {
+
+    }
+    h2 {
+
+    }
+    .bio p {
+
+    }
+    .bio a {
+
+    }
+
+
+
+.footer {
   background-color: blue;
-}
 
-.instructions {
-  background-color: red;
-}
-.meta {
-  background-color: green;
-}
-.description {
-  background-color: purple ;
+
 }
