@@ -1,60 +1,63 @@
-/* xs breakpoint specific styles */
-@media (max-width: 768px) {
+/*  Table of Contents */
+/*
+  1.Media Specific
+  2.Fonts
+  3.Reset
+  4.Background Video
+  5.title
+  6.intro
+  7.Printer info
+  8.Menu
+  9.Bio
+  10.footer
+ */
 
 
-}
-
-/* sm breakpoint specific styles */
-@media (min-width: 768px) and (max-width: 992px) {
 
 
-}
-
-/* md breakpoint specific styles */
-@media (min-width: 992px) and (max-width: 1200px) {
 
 
-}
-/* lg breakpoint specific styles */
-@media (min-width: 1200px) {
+  
 
-  .bio {
-    background-color: grey;
-
-  }
-  .foot {
-    position: fixed;
-    height: 100%;
-    left: 0;
-    top: 0;
-
-  }
-}
+  /* lg breakpoint specific styles */
 
 
+/*          FONTS               */
+
+/*         RESET             */
 .icon {
     width: 1.5em;
     height: 1.5em;
     padding: 0.1em;
 
 }
+p {
+  display: inline;
+}
+
+/*         BG VIDEO            */
+/*         TITLE            */
 h1 {
   text-align: center;
-
 }
+/*         INTRO             */
+.intro {
+  text-align: justify;
+}
+/*         PRINTER            */
+/*         MENU            */
 h3 {
   text-align: center;
   background: pink;
 }
-.intro {
-  text-align: justify;
-}
+/*         BIO            */
+/*         FOOTER             */
+/*         STATES             */
 
-@media (min-width: 992px){
-  h1 {
-    text-align: right;
-  }
-}
+
+
+
+
 
 
 /* PPPPPPPRINNNTERFLJADSFLKASDFKLASL:DFK  */
@@ -113,3 +116,52 @@ article > section {
 .test {
   background-color: pink;
 }
+/*          Media Specific               */
+/* xs breakpoint specific styles */
+@media (max-width: 768px) {
+  .foot {
+
+  }
+
+
+}
+
+/* sm breakpoint specific styles */
+@media (min-width: 768px) and (max-width: 992px) {
+  .foot {
+
+  }
+
+
+}
+
+/* md breakpoint specific styles */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .foot {
+
+  }
+  h1 {
+    text-align: right;
+  }
+
+
+
+}
+/* lg breakpoint specific styles */
+@media (min-width: 1200px) {
+  h1 {
+    text-align: right;
+  }
+  .bio {
+    background-color: grey;
+
+  }
+  .foot {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+  }
+
+  }
