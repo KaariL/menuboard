@@ -23,7 +23,7 @@
 
   }
   .foot {
-    position: absolute;
+    position: fixed;
     height: 100%;
     left: 0;
     top: 0;
@@ -77,9 +77,7 @@ h3 {
 article > section {
   display: none;
 }
-.foot {
-  padding-right: 100px;
-}
+
 .bio {
   background-color: grey;
 
@@ -105,4 +103,13 @@ article > section {
   height: 100px;
 
 
+}
+.foot {
+  padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+      text-align: center;
+}
+.test {
+  background-color: pink;
 }
