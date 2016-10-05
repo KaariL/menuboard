@@ -17,12 +17,31 @@
 
 
 
-  
+
 
   /* lg breakpoint specific styles */
 
 
 /*          FONTS               */
+@font-face {
+    font-family: weblysleek;
+    src: url("https://dl.dropboxusercontent.com/s/gs918tnv9bglzgn/weblysleekuil.ttf");
+}
+@font-face {
+    font-family: libertine;
+    src: url("https://dl.dropboxusercontent.com/s/ni5whootl9pxspt/LinLibertine_R.ttf");
+
+}
+@font-face {
+    font-family: cinzel;
+    src: url("https://dl.dropboxusercontent.com/s/3t1zdgl0q2p83sw/Cinzel-Regular.otf");
+}
+
+@font-face {
+    font-family: yozakura;
+    src: url("https://dl.dropboxusercontent.com/s/h4ssjbhoxg1sefe/YOZAKURA-Regular.otf");
+
+}
 
 /*         RESET             */
 .icon {
@@ -34,23 +53,84 @@
 p {
   display: inline;
 }
+body {
+  font-family: weblysleek;
+
+
+}
 
 /*         BG VIDEO            */
 /*         TITLE            */
 h1 {
   text-align: center;
+  font-family: yozakura;
+  fo
 }
 /*         INTRO             */
 .intro {
   text-align: justify;
+  background-color: white;
 }
+  .face img {
+    border-radius: 50%;
+  }
 /*         PRINTER            */
 /*         MENU            */
+
 h3 {
   text-align: center;
-  background: pink;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-family: cinzel;
+  background-color: white;
+  padding: .3rem;
+  color: #95989A;
+}
+.dashi {
+  background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  background-color: blue;
+  height: 36px;
+  background: url("http://i.cbc.ca/1.3789530.1475523914!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/biocentrism.jpg");
+
+}
+.miso {
+  background-color: blue;
+
+}
+.potato {
+  background-color: blue;
+
+}
+.edamame {
+  background-color: blue;
+
+}
+.teriyaki {
+  background-color: blue;
+
+}
+.ingredients ul {
+
+
+  list-style-type: circle;
+
+
+}
+.instructions li {
+  line-height: 4rem;
+
+  margin-left: 10px;
+
+
 }
 /*         BIO            */
+h2 {
+  font-family: yozakura;
+}
 /*         FOOTER             */
 /*         STATES             */
 
@@ -113,15 +193,20 @@ article > section {
     overflow-x: hidden;
       text-align: center;
 }
-.test {
-  background-color: pink;
-}
+
 /*          Media Specific               */
 /* xs breakpoint specific styles */
 @media (max-width: 768px) {
   .foot {
 
   }
+  body {
+    background-color: #EEEFE1;
+  }
+  h3 {
+
+  }
+
 
 
 }
@@ -130,6 +215,12 @@ article > section {
 @media (min-width: 768px) and (max-width: 992px) {
   .foot {
 
+  }
+  h3 {
+    
+  }
+  body {
+    background-color: #EEEFE1;
   }
 
 
@@ -143,6 +234,9 @@ article > section {
   h1 {
     text-align: right;
   }
+  body {
+    background-color: #EEEFE1;
+  }
 
 
 
@@ -154,6 +248,10 @@ article > section {
   }
   .bio {
     background-color: grey;
+
+  }
+  h3 {
+    background-color:  #EEEFE1;
 
   }
   .foot {
