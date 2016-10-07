@@ -1,4 +1,16 @@
+
+
+
+
+
+
+
 $(document).ready(function(){
+
+  var titleHeight = $(".menu-title").height();
+
+  $(".preview").css({height: titleHeight});
+  $("h3").css({height: titleHeight});
 
    $('article').click(function(){
        $('section', this).toggle('800', 'swing');
@@ -12,10 +24,15 @@ $(document).ready(function(){
 
    });
 
+
 });
+// $(document).ready(function(){
+
+// var titleHeight = $(".menu-title").height();
+//  $(".preview").css({"height" titleHeight});
 
 
+//});
+//var Height = document.getElementByClassName('menu-title').style.height;
 
-$(document).ready(function(){
-	$('.my-background-video').bgVideo();
-});
+//document.getElementByClassName('preview').style.height = Height + 'px';
