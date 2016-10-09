@@ -81,6 +81,11 @@ h3 {
   margin-bottom: 0px;
   display: inline;
 }
+.box-shadow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, .15);
+}
 .preview {
   background-position: center;
 
@@ -177,7 +182,7 @@ h2 {
 /*         FOOTER             */
 .footer {
 
-  height: 200px;
+  height: 30vh;
   background-image: url("https://dl.dropboxusercontent.com/s/8ybxcikv4aor2yg/water.png");
   background-size: cover;
   background-color: #4D4B4B;
@@ -189,13 +194,13 @@ h2 {
     padding: 0;
     margin-top: 45px;
     overflow-x: hidden;
-      text-align: center;
+    text-align: center;
   background-color: #4D4B4B;
 }
 .img {
   background-image: url(../stand-in.jpg);
   background-size: cover;
-  height: 750px;
+    height: 70vh;
 }
 /*         STATES             */
 
@@ -274,7 +279,7 @@ article > section {
 
   }
   .wp {
-    transform: translateY(-55px);
+    transform: translateY(-40px);
   }
 
 }
