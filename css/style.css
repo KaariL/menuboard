@@ -93,7 +93,7 @@ h3 {
    background-size: cover;
   background-color: blue;
 
-  background: url("/images/stand-in.jpg")
+  background: url("../images/stand-in.jpg")
 }
 .dashi {
   background-color: blue;
@@ -182,7 +182,7 @@ h2 {
 .footer {
 
   height: 30vh;
-  background-image: url("https://dl.dropboxusercontent.com/s/8ybxcikv4aor2yg/water.png");
+  background-image: url("../images/water.png");
   background-size: cover;
   background-color: #4D4B4B;
 
