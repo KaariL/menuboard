@@ -49,7 +49,8 @@ body {
 h1 {
   text-align: center;
   font-family: "flood-std";
-
+  letter-spacing: 250%;
+  font-size: 7.8rem;
 }
 
 /*         INTRO             */
@@ -85,6 +86,7 @@ h3 {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
   background-color: rgba(0, 0, 0, .15);
+  transform: translateY(-1px);
 }
 .preview {
   background-position: center;
@@ -96,22 +98,38 @@ h3 {
   background: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/stand-in.JPG?raw=true")
 }
 .dashi {
-  background-color: blue;
+  background: url("../images/stand-in.jpg")
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .miso {
-  background-color: blue;
+
+  background: url("../images/stand-in.jpg")
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 .potato {
-  background-color: blue;
+  background: url("../images/stand-in.jpg")
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 .edamame {
-  background-color: blue;
+  background: url("../images/stand-in.jpg")
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 .teriyaki {
-  background-color: blue;
+  background: url("../images/stand-in.jpg")
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 .menu-item {
@@ -197,7 +215,7 @@ h2 {
   background-color: #4D4B4B;
 }
 .img {
-  background-image: url(../stand-in.jpg);
+  background-image: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/stand-in.JPG?raw=true");
   background-size: cover;
     height: 70vh;
 }
