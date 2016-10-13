@@ -45,6 +45,11 @@ body {
 
 
 /*         BG VIDEO            */
+#content {
+  background-color: white;
+
+}
+
 /*         TITLE            */
 h1 {
   text-align: center;
@@ -68,70 +73,74 @@ h1 {
 /*         MENU            */
 article {
   color: #838688;
+
 }
+
 h3 {
   text-align: center;
   text-transform: uppercase;
+  padding: 0;
 
+ margin-bottom: 0;
+
+ padding-top: 15px;
+ padding-bottom: 15px;
   font-size: 2rem;
-  line-height: 4rem;
+
   font-family: "acta-display";
   background-color: white;
 
   color: #95989A;
-  margin-bottom: 0px;
-  display: inline;
+
+
 }
-.box-shadow {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
-  background-color: rgba(0, 0, 0, .15);
-  transform: translateY(-1px);
-}
+
 .preview {
-  background-position: center;
+
 
    background-repeat: no-repeat;
    background-size: cover;
+
   background-color: blue;
 
   background: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/stand-in.JPG?raw=true")
 }
+/*
 .dashi {
-  background: url("../images/stand-in.jpg")
+  background: url("?raw=true")
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .miso {
 
-  background: url("../images/stand-in.jpg")
+  background: url("?raw=true")
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
 }
 .potato {
-  background: url("../images/stand-in.jpg")
+  background: url("?raw=true")
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
 }
 .edamame {
-  background: url("../images/stand-in.jpg")
+  background: url("?raw=true")
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
 }
 .teriyaki {
-  background: url("../images/stand-in.jpg")
+  background: url("?raw=true")
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
-}
+}  */
 .menu-item {
   background-color: #D0DADF;
 }
@@ -144,9 +153,17 @@ h3 {
   font-size: 120%;
 
 
+
 }
 h4 {
   color: #C4BA99;
+}
+
+.meta > h4 {
+  display: inline-block;
+  padding: 1rem;
+  line-height: 4rem;
+
 }
 .ingredients ul {
   list-style-position: inside;
@@ -266,9 +283,7 @@ article > section {
   .description {
     padding: 10px 15px;
   }
-  h3 {
-    line-height: 4.5rem;
-  }
+
   .wp {
     margin-bottom: 10px;
   }
@@ -284,10 +299,7 @@ article > section {
   body {
     background-color: #EEEFE1;
   }
-  h3 {
-      line-height: 4.5rem;
 
-  }
 
   .haiku {
     transform: translateY(15px);
@@ -309,6 +321,15 @@ article > section {
   h1 {
     text-align: right;
   }
+  h3 {
+    margin-top: 0;
+  }
+
+
+  .menu {
+
+  }
+
   .preview {
     transform: translateY(-100%);
   }
@@ -327,6 +348,7 @@ article > section {
 
 
 
+
 }
 /* lg breakpoint specific styles */
 @media (min-width: 1200px) {
@@ -337,6 +359,7 @@ article > section {
     background-color: grey;
 
   }
+
   h3 {
     background-color:  #EEEFE1;
 
