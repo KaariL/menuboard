@@ -93,7 +93,7 @@ h3 {
    background-size: cover;
   background-color: blue;
 
-  background: url("../images/stand-in.jpg")
+  background: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/stand-in.JPG?raw=true")
 }
 .dashi {
   background-color: blue;
@@ -182,7 +182,7 @@ h2 {
 .footer {
 
   height: 30vh;
-  background-image: url("../images/water.png");
+  background-image: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/water.png?raw=true");
   background-size: cover;
   background-color: #4D4B4B;
 
