@@ -24,6 +24,10 @@ $(document).ready(function(){
 
    });
 
+   $(window).on( 'resize', function () {
+    $('.arrow').right( $(window).width() / 2 );
+}).resize();
+
 
 });
 // $(document).ready(function(){

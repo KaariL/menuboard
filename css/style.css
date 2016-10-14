@@ -38,7 +38,6 @@
   height: 1em;
   width: 1em;
   fill: #95989A;
-  transform: rotate(23deg);
 
 
 
@@ -290,7 +289,7 @@ article > section {
     background-color: #EEEFE1;
   }
   .arrow {
-
+  transform: rotate(23deg);
 
   }
   .description {
@@ -313,8 +312,8 @@ article > section {
     background-color: #EEEFE1;
   }
 .arrow {
+   transform: rotate(23deg);
 
-  
 }
 
   .haiku {
@@ -356,7 +355,7 @@ article > section {
   padding: 10px 0;
 }
 .arrow {
-  transform: translateY(7px) translateX(-15px);
+  transform: rotate(23deg) translateX(-15px) translateY(0.5em);
 
 }
   .description {
@@ -380,7 +379,10 @@ article > section {
 
   }
   .arrow {
-    transform: translateY(7px) translateX(-25px);
+    transform: rotate(23deg) translateX(1em);
+   margin-right: 2em;
+
+
 
   }
 
