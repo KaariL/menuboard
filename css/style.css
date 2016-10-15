@@ -295,6 +295,9 @@ article > section {
 /*          Media Specific               */
 /* xs breakpoint specific styles */
 @media (max-width: 768px) {
+  h1 {
+    font-size: 4.6rem;
+  }
   .foot {
   margin-top: 10rem;
   }
@@ -302,7 +305,17 @@ article > section {
     background-color: #EEEFE1;
   }
   .icon-list {
+    position: absolute;
 
+  }
+  .bag {
+    transform: translateX(5vw);
+  }
+  .printer {
+    transform: translateX(35vw);
+  }
+  .watch {
+    transform: translateX(65vw);
   }
   h3{
     padding-bottom: 0px;
@@ -330,6 +343,19 @@ article > section {
 
   body {
     background-color: #EEEFE1;
+  }
+  .icon-list {
+    position: absolute;
+
+  }
+  .bag {
+    transform: translateX(10vw);
+  }
+  .printer {
+    transform: translateX(40vw);
+  }
+  .watch {
+    transform: translateX(70vw);
   }
   h3{
     padding-bottom: 0px;
@@ -365,11 +391,22 @@ margin-top: 10rem;
 
 
   .print {
-    transform: translateY(-70%);
+    transform: translateY(-90%);
 
   }
   .icon-list {
     margin: 0 1.5rem;
+    position: absolute;
+    right: -3em;
+  }
+  .bag {
+    top: 3em;
+  }
+  .printer {
+    top: 6em;
+  }
+  .watch {
+    top: 9em;
   }
   .menu {
     transform: translateY(-100px);
@@ -419,9 +456,17 @@ margin-top: 10rem;
   }
   .icon-list {
     margin: 0 1.5rem;
+    position: absolute;
+    top: -1em;
+  }
+  .printer{
+    transform: translateX(3em);
+  }
+  .watch {
+    transform: translateX(6em);
   }
   .menu {
-    transform: translateY(5rem);
+    transform: translateY(6rem);
   }
   .arrow {
     transform: rotate(23deg) translateX(1em);
