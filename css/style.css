@@ -353,6 +353,7 @@ article > section {
   }
   h3{
     padding-bottom: 0px;
+    font-size: 5rem;
   }
   .arrow {
   transform: rotate(45deg) translateY(.2em);
@@ -394,6 +395,7 @@ article > section {
   }
   h3{
     padding-bottom: 0px;
+    font-size: 5rem;
   }
 .arrow {
   transform: rotate(45deg) translateY(.2em);
