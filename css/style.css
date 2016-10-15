@@ -397,6 +397,9 @@ article > section {
   .watch {
     transform: translateX(70vw);
   }
+  .menu {
+    transform: translateY(2em);
+  }
   h3{
     padding-bottom: 0px;
     font-size: 5em;
