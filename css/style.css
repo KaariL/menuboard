@@ -57,6 +57,7 @@ p {
 }
 body {
   font-family: "acumin-pro";
+  overflowY: hidden;
 }
 
 
@@ -91,6 +92,7 @@ h1 {
   color: #C4BA99;
 
 }
+
 .icon-list {
   fill: #C4BA99;
   margin: 0 3rem;
@@ -136,12 +138,36 @@ background-color:  #EEEFE1;
   background: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/stand-in.JPG?raw=true")
 }
 .print-preview {
-  background-color: blue;
+  background-color: #EEEFE1;
   display: none;
   position: absolute;
   right: 0;
-}
+  fill: #C4BA99;
 
+}
+.bag-md {
+  height: 2em;
+  width: 2em;
+  display: inline;
+  transform: translateY(1em);
+  margin-left: 5vw;
+}
+.printer-md {
+  height: 2em;
+  width: 2em;
+  display: inline;
+  transform: translateY(1em);
+  margin-left: 5vw;
+
+}
+.watch-md {
+  height: 2em;
+  width: 2em;
+  display: inline;
+  transform: translateY(1em);
+  margin-left: 5vw;
+
+}
 /*
 .dashi {
   background: url("?raw=true")
@@ -354,6 +380,7 @@ article > section {
   }
   .icon-list {
     position: absolute;
+    height: 2em;
 
   }
   .bag {
@@ -388,7 +415,7 @@ margin-top: 10rem;
 /* md breakpoint specific styles */
 @media (min-width: 992px) and (max-width: 1200px) {
   .foot {
-    
+
   }
   h1 {
     text-align: right;
