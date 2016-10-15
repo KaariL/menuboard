@@ -332,12 +332,15 @@ article > section {
   h1 {
     font-size: 4.6rem;
   }
+  .top {
+    font-size: 200%;
+  }
   .foot {
   margin-top: 10rem;
   }
   body {
     background-color: #EEEFE1;
-      font-size: 5em;
+
   }
   .icon-list {
     position: absolute;
@@ -361,6 +364,7 @@ article > section {
   }
   h3{
     padding-bottom: 0px;
+    font-size: 4em;
   }
   .arrow {
   transform: rotate(45deg) translateY(.2em);
@@ -385,7 +389,10 @@ article > section {
 
   body {
     background-color: #EEEFE1;
-    font-size: 5em;
+
+  }
+  .top {
+    font-size: 200%;
   }
   .icon-list {
     position: absolute;
@@ -410,6 +417,7 @@ article > section {
   }
   h3{
     padding-bottom: 0px;
+    font-size: 4em;
   }
 .arrow {
   transform: rotate(45deg) translateY(.2em);
