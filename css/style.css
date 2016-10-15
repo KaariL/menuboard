@@ -361,10 +361,7 @@ article > section {
   }
   h3{
     padding-bottom: 0px;
-<<<<<<< HEAD
-    font-size: 2em;
-=======
->>>>>>> parent of dbbed5f... important font changes
+
   }
   .arrow {
   transform: rotate(45deg) translateY(.2em);
@@ -410,14 +407,11 @@ article > section {
   }
   .menu {
     transform: translateY(2em);
-    
+
   }
   h3{
     padding-bottom: 0px;
-<<<<<<< HEAD
-    font-size: 2em;
-=======
->>>>>>> parent of dbbed5f... important font changes
+
   }
 .arrow {
   transform: rotate(45deg) translateY(.2em);
