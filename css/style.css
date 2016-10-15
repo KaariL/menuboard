@@ -124,6 +124,7 @@ background-color:  #EEEFE1;
 
 }
 
+
 .preview {
 
 
@@ -134,6 +135,13 @@ background-color:  #EEEFE1;
 
   background: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/stand-in.JPG?raw=true")
 }
+.print-preview {
+  background-color: blue;
+  display: none;
+  position: absolute;
+  right: 0;
+}
+
 /*
 .dashi {
   background: url("?raw=true")
@@ -380,7 +388,7 @@ margin-top: 10rem;
 /* md breakpoint specific styles */
 @media (min-width: 992px) and (max-width: 1200px) {
   .foot {
-
+    
   }
   h1 {
     text-align: right;
@@ -411,7 +419,10 @@ margin-top: 10rem;
   .menu {
     transform: translateY(-100px);
   }
-
+  .preview-top {
+    margin-top: calc(2rem + 30px);
+    height: calc(4rem + 30px);
+  }
   .preview {
     transform: translateY(-100%);
   }
@@ -438,6 +449,9 @@ margin-top: 10rem;
 }
 /* lg breakpoint specific styles */
 @media (min-width: 1200px) {
+  body {
+    padding-bottom: 15rem;
+  }
   h1 {
     text-align: right;
   }

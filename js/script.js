@@ -5,28 +5,27 @@
 
 
 
-$(document).ready(function(){
+$(function(){
+ "use sctrict";
 
   var titleHeight = $(".menu-title").height();
 
   $(".preview").css({height: titleHeight});
   $("h3").css({height: titleHeight});
+  $(".print-preview").css({height: titleHeight});
+
+
 
    $('article').click(function(){
-       $('section', this).toggle('800', 'swing');
+      $('section', this).toggle('800', 'swing');
+      $('.preview', this).toggleClass('col-md-6 col-md-offset-6 preview-top');
+      $('.print-preview', this).toggle();
+
+
+
+
 
    });
-
-   $('article').click(function(){
-       $('.title', this).css({
-         'transform' : 'rotateY(90deg)'
-       });
-
-   });
-
-   $(window).on( 'resize', function () {
-    $('.arrow').right( $(window).width() / 2 );
-}).resize();
 
 
 });
