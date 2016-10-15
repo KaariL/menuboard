@@ -341,17 +341,20 @@ article > section {
   }
   .icon-list {
     position: absolute;
-    height: 4em;
+
 
   }
   .bag {
     transform: translateX(5vw);
+    height: 4em;
   }
   .printer {
     transform: translateX(35vw);
+    height: 4em;
   }
   .watch {
     transform: translateX(65vw);
+    height: 4em;
   }
   .menu {
     transform: translateY(2em);
@@ -392,15 +395,19 @@ article > section {
   }
   .bag {
     transform: translateX(10vw);
+    height: 4em;
   }
   .printer {
     transform: translateX(40vw);
+    height: 4em;
   }
   .watch {
     transform: translateX(70vw);
+    height: 4em;
   }
   .menu {
     transform: translateY(2em);
+    
   }
   h3{
     padding-bottom: 0px;
