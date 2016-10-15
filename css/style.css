@@ -333,20 +333,17 @@ article > section {
     font-size: 4.6rem;
   }
   .top {
-    font-size: 200%;
+
       padding-bottom: 6rem;
   }
-  .foot {
-  margin-top: 10rem;
-  }
+
   body {
     background-color: #EEEFE1;
 
   }
   .icon-list {
     position: absolute;
-    height: 8rem;
-    width: 6rem;
+
 
   }
   .bag {
@@ -366,7 +363,7 @@ article > section {
   }
   h3{
     padding-bottom: 0px;
-    font-size: 4em;
+
   }
   .arrow {
   transform: rotate(45deg) translateY(.2em);
@@ -376,7 +373,9 @@ article > section {
   .description {
     padding: 10px 15px;
   }
-
+  .foot {
+  margin-top: 10rem;
+}
   .wp {
     margin-bottom: 10px;
   }
@@ -394,13 +393,12 @@ article > section {
 
   }
   .top {
-    font-size: 200%;
+  
     padding-bottom: 6rem;
   }
   .icon-list {
     position: absolute;
-    height: 8rem;
-    width: 6rem;
+
 
     }
 
@@ -423,7 +421,7 @@ article > section {
   }
   h3{
     padding-bottom: 0px;
-    font-size: 4em;
+
   }
 .arrow {
   transform: rotate(45deg) translateY(.2em);
@@ -435,7 +433,7 @@ article > section {
   }
   .foot {
 margin-top: 10rem;
-  }
+}
   .wp {
     transform: translateY(-40px);
   }

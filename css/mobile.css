@@ -1,0 +1,27 @@
+for styles up to 992px
+fior mobile devices
+.top {
+
+    font-size: 200%;
+}
+
+.icon-list {
+
+  height: 8rem;
+  width: 6rem;
+
+  }
+  h3{
+
+    font-size: 4em;
+  }
+.foot {
+font-size: 200%;
+}
+.face img {
+  width: 200px;
+  height: 200px;
+}
+h2 {
+  font-size: 200%;
+}
