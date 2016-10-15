@@ -340,6 +340,7 @@ article > section {
   }
   .icon-list {
     position: absolute;
+    height: 4em;
 
   }
   .bag {
@@ -350,6 +351,9 @@ article > section {
   }
   .watch {
     transform: translateX(65vw);
+  }
+  .menu {
+    transform: translateY(2em);
   }
   h3{
     padding-bottom: 0px;
@@ -381,7 +385,7 @@ article > section {
   }
   .icon-list {
     position: absolute;
-    height: 2em;
+    height: 4em;
 
   }
   .bag {
