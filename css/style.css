@@ -361,7 +361,6 @@ article > section {
   }
   h3{
     padding-bottom: 0px;
-
   }
   .arrow {
   transform: rotate(45deg) translateY(.2em);
@@ -411,7 +410,6 @@ article > section {
   }
   h3{
     padding-bottom: 0px;
-
   }
 .arrow {
   transform: rotate(45deg) translateY(.2em);
@@ -552,7 +550,3 @@ margin-top: 10rem;
 
 
   /* STATES   */
-
-  .menu-item {
-
-  }
