@@ -6,7 +6,7 @@
 
 
 $(function(){
- "use sctrict";
+ "use strict";
 
   var titleHeight = $(".menu-title").height();
 
