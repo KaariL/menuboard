@@ -43,9 +43,9 @@
 
 }
 .icon-list {
-  height: 2rem;
-  width: 2rem;
-  display: inline;
+  height: 2.5rem;
+  width: 2.5rem;
+
 }
 a {
   color: inherit;
@@ -129,7 +129,7 @@ background-color:  #EEEFE1;
 
 .preview {
 
-
+  transition-duration: .5s;
    background-repeat: no-repeat;
    background-size: cover;
 
@@ -343,7 +343,8 @@ article > section {
   }
   .icon-list {
     position: absolute;
-
+    width: 3rem;
+      top: 125%;
 
   }
   .bag {
@@ -393,11 +394,13 @@ article > section {
 
   }
   .top {
-  
+
     padding-bottom: 6rem;
   }
   .icon-list {
     position: absolute;
+    width: 3rem;
+      top: 125%;
 
 
     }
@@ -558,7 +561,34 @@ margin-top: 10rem;
 
 
   }
+@media screen and (max-device-width: 992px) {
+  .top {
 
+      font-size: 200%;
+  }
+
+  .icon-list {
+  
+    height: 8rem;
+    width: 6rem;
+
+    }
+    h3{
+
+      font-size: 4em;
+    }
+  .foot {
+  font-size: 200%;
+  }
+  .face img {
+    width: 200px;
+    height: 200px;
+  }
+  h2 {
+    font-size: 200%;
+  }
+
+}
 
 
   /* STATES   */
