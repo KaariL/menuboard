@@ -578,10 +578,12 @@ margin-top: 10rem;
       font-size: 4em;
     }
     .menu {
-      transform: translateY(4rem);
+      transform: translateY(9rem);
     }
+
   .foot {
   font-size: 200%;
+
   }
   .face img {
     width: 200px;
