@@ -170,6 +170,8 @@ background-color:  #EEEFE1;
   margin-left: 5vw;
 
 }
+
+
 /*
 .dashi {
   background: url("?raw=true")
@@ -290,6 +292,11 @@ h2 {
 
 
 }
+.footer p {
+  padding: 15px;
+  text-align: center;
+
+}
 .foot {
 
     padding: 0;
@@ -297,6 +304,14 @@ h2 {
     overflow-x: hidden;
     text-align: center;
   background-color: #4D4B4B;
+}
+.second-seven {
+
+  background-image: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/second-seven-logo.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: contain;
+ background-position: center 50%;
+ width: 100%;
 }
 .img {
   background-image: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/stand-in.JPG?raw=true");
@@ -607,6 +622,7 @@ article:hover .arrow {
   color: white;
   text-decoration: none;
 }
-.print span:hover {
-  stroke: #e5e5e5;
+.bag:hover, .printer:hover, .watch:hover {
+  stroke: #EEEFE1;
+
 }
