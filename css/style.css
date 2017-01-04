@@ -276,7 +276,7 @@ h4 {
   padding: 15px;
 }
 h2 {
-  font-family: "flood-std";
+  font-family: brush, script;
   margin-top: 10px;
   padding: 15px;
 }
@@ -592,6 +592,9 @@ margin-top: 10rem;
 
   }
 @media screen and (max-device-width: 992px) {
+  body {
+    font-size: 2rem
+  }
   .top {
 
       font-size: 200%;
@@ -610,6 +613,7 @@ margin-top: 10rem;
     .menu {
       transform: translateY(9rem);
     }
+
 
   .foot {
   font-size: 200%;
@@ -638,4 +642,7 @@ article:hover .arrow {
 .bag:hover, .printer:hover, .watch:hover {
   stroke: #EEEFE1;
 
+}
+.footer p:hover {
+  color: #95989A;
 }
