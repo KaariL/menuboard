@@ -1,6 +1,6 @@
 /*  Table of Contents */
 /*
-  1.Media Specific
+
   2.Fonts
   3.Reset
   4.Background Video
@@ -10,6 +10,7 @@
   8.Menu
   9.Bio
   10.footer
+  1.Media Specific
  */
 
 
@@ -631,6 +632,10 @@ margin-top: 10rem;
 
 
   /* STATES   */
+.bag-md:hover, .printer-md:hover, .watch-md:hover {
+  stroke: #EEEFE1;
+
+}
 
 article:hover .arrow {
   stroke: black;
