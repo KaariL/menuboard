@@ -1,6 +1,6 @@
 /*  Table of Contents */
 /*
-  1.Media Specific
+
   2.Fonts
   3.Reset
   4.Background Video
@@ -10,6 +10,7 @@
   8.Menu
   9.Bio
   10.footer
+  1.Media Specific
  */
 
 
@@ -276,7 +277,7 @@ h4 {
   padding: 15px;
 }
 h2 {
-  font-family: "flood-std";
+  font-family: brush, script;
   margin-top: 10px;
   padding: 15px;
 }
@@ -592,6 +593,9 @@ margin-top: 10rem;
 
   }
 @media screen and (max-device-width: 992px) {
+  body {
+    font-size: 2rem
+  }
   .top {
 
       font-size: 200%;
@@ -611,6 +615,7 @@ margin-top: 10rem;
       transform: translateY(9rem);
     }
 
+
   .foot {
   font-size: 200%;
 
@@ -627,6 +632,10 @@ margin-top: 10rem;
 
 
   /* STATES   */
+.bag-md:hover, .printer-md:hover, .watch-md:hover {
+  stroke: #EEEFE1;
+
+}
 
 article:hover .arrow {
   stroke: black;
@@ -638,4 +647,7 @@ article:hover .arrow {
 .bag:hover, .printer:hover, .watch:hover {
   stroke: #EEEFE1;
 
+}
+.footer p:hover {
+  color: #95989A;
 }
