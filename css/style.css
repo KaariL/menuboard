@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: brush;
-  src: url('http://www.menuboard.xyz/fonts/edosz.ttf') format('truetype');
+  src: url('http://menuboard.xyz/fonts/edosz.ttf') format('truetype');
   font-weight: normal;
 font-style: normal
 
@@ -25,7 +25,7 @@ font-style: normal
 
  @font-face {
    font-family: bodoni;
-   src: url('http://www.menuboard.xyz/fonts/bodonixt.ttf');
+   src: url('http://menuboard.xyz/fonts/bodonixt.ttf');
 
   }
 
@@ -185,24 +185,24 @@ background-color:  #EEEFE1;
 
 
 .dashi {
-  background-image: url("http://www.menuboard.xyz/images/dashi.png");
+  background-image: url("http://menuboard.xyz/images/dashi.png");
   background-position: right;
 }
 
 .miso {
-  background-image: url("http://www.menuboard.xyz/images/miso.png");
+  background-image: url("http://menuboard.xyz/images/miso.png");
   background-position: right;
 }
 .potato {
-  background-image: url("http://www.menuboard.xyz/images/potato.png");
+  background-image: url("http://menuboard.xyz/images/potato.png");
   background-position: right;
 }
 .edamame {
-  background-image: url("http://www.menuboard.xyz/images/edamame.png");
+  background-image: url("http://menuboard.xyz/images/edamame.png");
   background-position: right;
 }
 .teriyaki {
-  background-image: url("http://www.menuboard.xyz/images/teriyaki.png");
+  background-image: url("http://menuboard.xyz/images/teriyaki.png");
   background-position: right;
 
 }
@@ -282,7 +282,7 @@ h2 {
 .footer {
 
   height: 30vh;
-  background-image: url("http://www.menuboard.xyz/images/water.png");
+  background-image: url("http://menuboard.xyz/images/water.png");
   background-size: cover;
   background-color: #4D4B4B;
 
@@ -302,14 +302,14 @@ h2 {
   background-color: #4D4B4B;
 }
 .second-seven {
-  background-image: url("http://www.menuboard.xyz/images/second-seven-logo.png");
+  background-image: url("http://menuboard.xyz/images/second-seven-logo.png");
   background-repeat: no-repeat;
   background-size: contain;
  background-position: center 50%;
  width: 100%;
 }
 .img {
-  background-image: url("http://www.menuboard.xyz/images/after.jpg");
+  background-image: url("http://menuboard.xyz/images/after.jpg");
   background-size: cover;
   background-position: center center;
   height: 70vh;
