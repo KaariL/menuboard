@@ -20,13 +20,8 @@ $(function(){
       $('section', this).toggle('800', 'swing');
       $('.preview', this).toggleClass('col-md-6 col-md-offset-6 preview-top');
       $('.print-preview', this).toggle();
-
-
-
-
-
    });
-   
+
 
 
 

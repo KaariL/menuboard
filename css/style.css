@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: brush;
-  src: url('../fonts/edosz.ttf') format('truetype');
+  src: url('http://www.menuboard.xyz/fonts/edosz.ttf') format('truetype');
   font-weight: normal;
 font-style: normal
 
@@ -25,7 +25,7 @@ font-style: normal
 
  @font-face {
    font-family: bodoni;
-   src: url('../fonts/bodonixt.ttf');
+   src: url('http://www.menuboard.xyz/fonts/bodonixt.ttf');
 
   }
 
@@ -146,12 +146,9 @@ background-color:  #EEEFE1;
 .preview {
 
   transition-duration: .5s;
-   background-repeat: no-repeat;
-   background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  background-color: blue;
-
-  background: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/stand-in.JPG?raw=true")
 }
 .print-preview {
   background-color: #EEEFE1;
@@ -186,44 +183,29 @@ background-color:  #EEEFE1;
 }
 
 
-/*
-.dashi {
-  background: url("?raw=true")
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 
+.dashi {
+  background-image: url("http://www.menuboard.xyz/images/dashi.png");
+  background-position: right;
 }
 
 .miso {
-
-  background: url("?raw=true")
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
+  background-image: url("http://www.menuboard.xyz/images/miso.png");
+  background-position: right;
 }
 .potato {
-  background: url("?raw=true")
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
+  background-image: url("http://www.menuboard.xyz/images/potato.png");
+  background-position: right;
 }
 .edamame {
-  background: url("?raw=true")
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
+  background-image: url("http://www.menuboard.xyz/images/edamame.png");
+  background-position: right;
 }
 .teriyaki {
-  background: url("?raw=true")
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url("http://www.menuboard.xyz/images/teriyaki.png");
+  background-position: right;
 
-}  */
+}
 .menu-item {
   background-color: #D0DADF;
 }
@@ -300,7 +282,7 @@ h2 {
 .footer {
 
   height: 30vh;
-  background-image: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/water.png?raw=true");
+  background-image: url("http://www.menuboard.xyz/images/water.png");
   background-size: cover;
   background-color: #4D4B4B;
 
@@ -320,17 +302,17 @@ h2 {
   background-color: #4D4B4B;
 }
 .second-seven {
-
-  background-image: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/second-seven-logo.png?raw=true");
+  background-image: url("http://www.menuboard.xyz/images/second-seven-logo.png");
   background-repeat: no-repeat;
   background-size: contain;
  background-position: center 50%;
  width: 100%;
 }
 .img {
-  background-image: url("https://github.com/KaariL/menuboard/blob/gh-pages/images/stand-in.JPG?raw=true");
+  background-image: url("http://www.menuboard.xyz/images/after.jpg");
   background-size: cover;
-    height: 70vh;
+  background-position: center center;
+  height: 70vh;
 }
 /*         STATES             */
 
